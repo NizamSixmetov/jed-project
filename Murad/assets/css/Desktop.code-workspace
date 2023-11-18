@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../jedacademy-fe16"
+		},
+		{
+			"path": "../../../Shusa Logistic"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Desktop"
+    }
+}

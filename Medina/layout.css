@@ -1,0 +1,30 @@
+@media (max-width: 1366px) {
+    .container {
+      max-width: 1140px !important;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 960px !important;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      max-width: 720px !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 540px !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 90% !important;
+    }
+  }
+  

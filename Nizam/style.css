@@ -1,0 +1,348 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+        text-decoration: none;
+    }
+
+body {
+    background-color: #19161B;
+    max-width: 1200px;
+}
+
+/* HEADER START */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .left img {
+    margin: 30px 0 30px 100px;
+    color: #FFB577;
+    cursor: pointer;
+}
+
+.container .right a {
+    display: flex;
+    margin: 30px 10px 30px 250px;
+}
+
+.container nav ul {
+    display: flex;
+}
+
+.container nav ul a {
+    display: flex;
+    margin: 28px 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.container nav ul a:hover {
+    color: #FFC492;
+}
+
+.container .right a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFC492;
+    cursor: pointer;
+}
+
+.container .right a:hover {
+    color: white;
+}
+
+
+/* HEADER END  */
+
+/* MAIN START */
+
+/* CONTACTUS-CONTAINER START */
+
+.contactus-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.contactus-container .photo {
+    display: flex;
+    margin-left: 130px;
+}
+
+.contactus-container .text {
+    margin-left: 110px;
+}
+
+.contactus-container .text h2 {
+    width: 390px;
+    height: 116px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 58px;
+    color: #FFFFFF;
+    opacity: 0.87;
+}
+
+.contactus-container .text p {
+    width: 375px;
+    height: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.contactus-container .text .name {
+    background-color: #19161B;
+    color: #FFFFFF;
+    padding: 14px 10px;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+.contactus-container .text .name:hover{
+    color:#FFB577;
+    border-color: rgb(58, 58, 58);
+}
+
+.contactus-container .text .email {
+    background-color: #19161B;
+    color: #FFFFFF;
+    padding: 14px 10px;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    margin-left: 3px;
+}
+.contactus-container .text .email:hover{
+    color:#FFB577;
+    border-color: rgb(58, 58, 58);
+}
+
+.contactus-container .text .message {
+    background-color: #19161B;
+    color: #FFFFFF;
+    padding: 14px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    margin-top: 25px;
+    width: 410px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.contactus-container .text .message:hover{
+    color: #FFB577;
+    border-color: rgb(58, 58, 58);
+}
+
+.contactus-container .text .button1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.87;
+    background: #27252D;
+    padding: 15px 20px;
+}
+.contactus-container .text .button1:hover{
+    color: #FFB577;
+}
+
+.contactus-container .photo .left-photo {
+    margin-top: 50px;
+}
+
+.contactus-container .photo .right-photo {
+    margin-left: 60px;
+}
+
+/* CONTACTUS-CONTAINER END */
+/* MAIN-9 START */
+
+.container-main-9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-left: 110px;
+    background: #1F1D21;
+}
+
+.container-main-9 .maps h4 {
+    width: 150px;
+    height: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.container-main-9 .maps p {
+    width: 180px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #B8B8B8;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#localp {
+    width: 180px;
+}
+
+.container-main-9 .maps iframe {
+    mix-blend-mode: luminosity;
+    opacity: 0.7;
+    margin-right: 2px;
+}
+
+/* MAIN-9 END */
+/* FOOTER-1 START */
+
+
+.footer-1 {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.footer-1 .footer-link ul {
+    display: flex;
+    bottom: 35%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-1 .footer-link ul a {
+    margin-left: 40px;
+    left: 43.22%;
+    right: 52.28%;
+    top: 64.18%;
+    bottom: 29.07%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer-1 .footer-link ul a:hover {
+    color: #FFB577;
+}
+
+.footer-1 .border {
+    width: 100%;
+    border: 1px solid white;
+    opacity: 0.07;
+    margin-top: 30px;
+}
+
+/* FOOTER-1 END */
+
+/* FOOTER-2 START */
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 110px;
+    margin-right: 10px;
+}
+
+.footer-2 .footer-left p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #B8B8B8;
+}
+
+.footer-2 .footer-link-2 img {
+    margin-right: 20px;
+}
+
+.footer-2 .footer-right button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #19161B;
+    border: none;
+    outline: none;
+}
+
+.footer-2 .footer-right button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB577;
+}
+
+.footer-2 .footer-right button a:hover {
+    color:white;
+}
+
+.footer-2 .footer-link-2 {
+    margin-right: 190px;
+}
+
+/* JAVA SCRIPT STYLE START */
+
+
+
+.emailMessage{
+    color: red;
+}
+
+.nameMessage{
+    color: red;
+}
+.messageMessage{
+    color: red ;
+}
+
+
+/* JAVA SCRIPT STYLE END */

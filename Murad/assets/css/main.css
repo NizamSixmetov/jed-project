@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFonts;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background: #19161B;
+}
+
+body,
+html {
+    font-family: myFonts;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-top: 30px;
+}
+
+.head-list {
+    display: inline-block;
+}
+
+.lists {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.link-list {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.clone-btn {
+    color: #FFC492;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.first-section {
+    margin-top: 96px;
+}
+
+.first-parent-first h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.first-parent-second {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+}
+
+.first-parent-second-img img {
+    width: 100%;
+    min-width: 300px;
+    height: 492px;
+}
+
+.first-parent-second-child {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    margin-bottom: 18px;
+}
+
+.first-section-text h4 {
+    color: var(--white, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.first-section-text p {
+    color: var(--colour-100, #B8B8B8);
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 16px;
+}
+
+.second-section {
+    margin-top: 160px;
+}
+
+.second-section h2 {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    opacity: 0.87;
+}
+
+.second-section-second-parent {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+}
+
+.second-section-second-child img {
+    width: 100%;
+}
+
+.third-section img {
+    width: 100%;
+    margin-top: 160px;
+}
